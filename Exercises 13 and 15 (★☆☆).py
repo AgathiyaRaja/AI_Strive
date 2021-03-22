@@ -13,7 +13,7 @@ import numpy as np
 # In[8]:
 
 
-arr = np.random.randint(50,size=(10,10))
+arr = np.random.randint(size=(10,10))
 arr
 
 
@@ -29,7 +29,7 @@ print(np.max(arr))
 # In[13]:
 
 
-arr = np.ones((5,5))
+arr = np.ones((10,10))
 arr[1:-1,1:-1] = 0
 arr
 
